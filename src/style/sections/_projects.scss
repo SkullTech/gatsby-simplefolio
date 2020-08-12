@@ -75,3 +75,15 @@
     }
   }
 }
+
+.slick-prev:before {
+  color: blue !important;
+}
+.slick-next:before {
+  color: blue !important;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: center !important;
+}
