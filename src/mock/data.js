@@ -126,7 +126,7 @@ export const footerData = {
       id: nanoid(),
       name: 'twitter',
       faClass: 'fab',
-      url: 'https://www.twitter.com/SkullTech101',
+      url: 'https://www.twitter.com/summitkg',
     },
     {
       id: nanoid(),
