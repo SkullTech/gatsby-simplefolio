@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Hey, I'm",
   name: 'Sumit',
-  subtitle: "I'm a fullstack serverless web developer",
+  subtitle: "I'm a software developer specializing in Python and cloud technologies",
   cta: '',
 };
 
@@ -19,16 +19,26 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a full-stack web developer, expert in Python and JavaScript. I have more than 4 years of experience developing and maintaining web applications, bringing great value to individuals and small businesses.',
+    'I am a Python developer, using which I develop highly performant website backends and cross-platform GUI applications. I have more than 4 years of experience developing and maintaining web applications, microservices, APIs, GUI desktop applications, etc. bringing great value to individuals and small businesses.',
   paragraphTwo:
-    'I can help you build your next website from ground-up using the AWS cloud and serverless technologies. Serverless allows you to implement your application at explosion speed, but also supports future scalability. I can also extend or maintain your existing website in any way you want.',
+    'I am also a certified AWS cloud solutions architect, so I can help your next idea come to life using the AWS cloud and serverless technologies. Serverless allows you to implement your application at explosion speed, but also supports future scalability. I can also extend or maintain your existing website or application in any way you want.',
   paragraphThree:
-    'My tech stack includes—Python, JavaScript, Flask, Django, FastAPI, HTML5, CSS3, React, AWS, Amplify, Firebase, SQL, NoSQL',
+    'My tech stack includes—Python, JavaScript, Flask, Django, FastAPI, QT, HTML5, CSS3, React, AWS, Amplify, Firebase, SQL, NoSQL',
   resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    images: ['navaldome.png'],
+    title: 'Navaldome',
+    info:
+      'Wrote a cross-platform GUI application using Python and the QT framework for internal usage of a cybersecurity firm',
+    accomplished: [],
+    technologies: ['Python', 'QT', 'GUI'],
+    url: 'https://navaldome.com',
+  },
   {
     id: nanoid(),
     images: ['shorty-screenshot.png', 'shorty-architecture.png'],
